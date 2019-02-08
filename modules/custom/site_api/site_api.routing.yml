@@ -1,0 +1,8 @@
+siteapi.pagejson:
+  path: '/page_json/{api_key}/{nid}'
+  defaults:
+    _controller: '\Drupal\site_api\Controller\SiteNodeCheck::node_json'
+    _title: 'Page JSON'
+  requirements:
+    node: \d+
+    _custom_access: '\Drupal\site_api\Controller\SiteNodeCheck::pageaccess'

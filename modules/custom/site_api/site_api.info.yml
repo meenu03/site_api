@@ -1,0 +1,8 @@
+name: Site API
+type: module
+description: 'Allow to add Site API key and view Basic Page in JSON format'
+core: 8.x
+package: Custom
+
+dependencies:
+  - serialization
