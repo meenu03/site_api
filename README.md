@@ -8,6 +8,6 @@ Development Enviornment:
 4) Server version: 10.1.31-MariaDB 
 5) Drupal 8.6.7
 
-# Enable Druapl Serialization module
+# Enable Drupal Serialization module
 # Enable site_api module
 
